@@ -1,6 +1,7 @@
 import React, { Fragment, useRef, useState } from "react";
 import { TodoItem } from "./TodoItem";
 import uuid4 from "uuid4";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export function TodoList() {
   const [todos, setTodos] = useState([]);
